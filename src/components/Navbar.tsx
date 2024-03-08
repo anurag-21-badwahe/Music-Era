@@ -44,4 +44,4 @@ function Navbar({ className }: { className?: string }) {
   )
 }
 
-export default Navbar;
+export default Navbar
