@@ -1,5 +1,6 @@
 import Courses from "@/components/Courses";
 import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/Instructors";
 import TestimonialCards from "@/components/TestimonialCards";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
@@ -12,6 +13,7 @@ export default function Home() {
     <Courses/>
     <WhyChooseUs/>
     <TestimonialCards/>
+    <Instructors/>
    </main>
     </>
   );
