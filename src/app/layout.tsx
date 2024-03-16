@@ -8,7 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Music Era",
   description: "Lets convert your passion into career",
+  icons: {
+    icon: '/favicon.svg', // /public path
+  },
 };
+
 
 export default function RootLayout({
   children,
