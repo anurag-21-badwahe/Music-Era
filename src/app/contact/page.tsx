@@ -2,7 +2,7 @@
 
 import React, { FormEvent, useState } from "react";
 import { Meteors } from "@/components/ui/meteors";
-const page = () => {
+const Mycontact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -55,4 +55,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default  Mycontact ;
